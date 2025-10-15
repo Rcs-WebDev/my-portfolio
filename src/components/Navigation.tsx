@@ -52,7 +52,7 @@ export function Navigation({ darkMode, toggleDarkMode }: NavigationProps) {
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="font-bold text-xl sm:text-2xl lg:text-3xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
+          className="font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
         >
           Robin Cahya
         </motion.div>
@@ -72,7 +72,7 @@ export function Navigation({ darkMode, toggleDarkMode }: NavigationProps) {
           ))}
           <Button
             onClick={() => window.open('/resume.pdf', '_blank')}
-            className="text-xl sm:text-2xl lg:text-3xl bg-transparent bg-gradient-to-r from-indigo-500 to-purple-600 text-white hover:scale-105 transition-transform duration-200"
+            className="bg-transparent bg-gradient-to-r from-indigo-500 to-purple-600 text-white hover:scale-105 transition-transform duration-200"
           >
             <Download className="w-4 h-4 mr-2" />
             Resume

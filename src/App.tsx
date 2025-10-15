@@ -6,7 +6,7 @@ import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
 import { SkillsSection } from './components/SkillsSection';
 import { ProjectsSection } from './components/ProjectsSection';
-import { BlogSection } from './components/BlogSection';
+// import { BlogSection } from './components/BlogSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { Toaster } from './components/ui/sonner';
@@ -58,7 +58,7 @@ export default function App() {
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
         <ContactSection />
       </main>
       

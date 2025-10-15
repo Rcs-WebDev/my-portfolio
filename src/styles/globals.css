@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --font-size: 14px;
+  --font-size: 18px;
   --background: #ffffff;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
@@ -191,6 +191,18 @@ html {
   font-size: var(--font-size);
 }
 
+@media (min-width: 640px) {
+  :root { --font-size: 14px; }
+}
+@media (min-width: 768px) {
+  :root { --font-size: 16px; }
+}
+@media (min-width: 1024px) {
+  :root { --font-size: 20px; }
+}
+@media (min-width: 1280px) {
+  :root { --font-size: 22px; }
+}
 
 /* Infinite Scroll Animations */
 @keyframes scroll-left {
